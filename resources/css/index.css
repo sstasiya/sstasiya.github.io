@@ -1,8 +1,40 @@
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {background: #757575;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
+.navbar {
+  background-color: lightpink;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.navbar li {
+  display: inline-block;
+  padding-left: 150px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.Welcome {
+  margin-top: 50px;
+  background-color: #fff0f5;
+  text-align: center;
+  padding: 10px;
+
+
+}
+
+#me {
+  height: 300px;
+  width: 300px;
+  filter: drop-shadow(1px 1px 1px black);
+
+}
+
+.About h1 {
+  
+}
